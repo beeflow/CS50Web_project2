@@ -1,0 +1,92 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+#sidebar {
+    width: 150px;
+    z-index: 999;
+    background: #f8f9fa!important;
+    padding: 10px;
+}
+
+#sidebar footer {
+    position: absolute;
+    bottom: 10px;
+}
+
+#chat-title {
+    height: 50px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+#chat-title:before {
+    content: '#';
+}
+#chat-window, #chats {
+    overflow: auto;
+}
+
+#chat-form {
+    height: 50px;
+    padding-top: 5px;
+}
+
+.channel-link {
+    color: #6c757d;
+}
+
+.channel-link:hover {
+    text-decoration: none;
+}
+
+.card-text>blockquote:before {
+    content: "| ";
+}
+.card-text>blockquote {
+    padding-left: 10px;
+    color: #6c757d;
+}
